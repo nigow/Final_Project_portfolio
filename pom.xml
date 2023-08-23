@@ -79,7 +79,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.api.StockTradingSimulatorApplication</mainClass>
+                    <mainClass>org.example.PortfolioApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
