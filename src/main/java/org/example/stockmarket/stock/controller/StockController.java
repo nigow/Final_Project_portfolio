@@ -17,7 +17,7 @@ stock class, which ignores news, earnings, and price history fields.
  */
 @RestController
 @RequestMapping(value = "/api/v1/stocks")
-@CrossOrigin(origins = {"http://127.0.0.1:5500", "http://127.0.0.1:5501", "http://localhost:8080", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://127.0.0.1:5500", "http://127.0.0.1:5501", "http://localhost:8080", "http://localhost:3000", "https://frontend-tmp.apps.oscluster1.fnkn.p1.openshiftapps.com/"})
 @AllArgsConstructor
 @SuppressWarnings("unused")
 public class StockController {
